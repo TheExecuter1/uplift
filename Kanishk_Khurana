@@ -1,0 +1,22 @@
+#Kanishk Khurana
+#linear search algorithm in python 
+#GDSC_uplift
+
+#taking the array from the user
+
+len1=int(input("enter the length of your array: "))
+l1=[]
+for i in range(0,len1):
+    a=int(input("enter the array element: "))
+    l1.append(a)
+print("The final array is: ", l1)
+
+#now we will be implementing linear search
+
+element=int(input("enter the element you want to find: "))
+for i in range(len(l1)):
+    if l1[i]==element:
+        print("the element was found at index",i)
+    else:
+        print("element was not found")
+        
